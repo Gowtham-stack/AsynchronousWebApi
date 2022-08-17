@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AsynchronousWebApi.Controllers
 {
     [ApiController]
+    [Route("[controller]")]
     public class BadProgramController : Controller
     {
         private readonly LegacyService legacyService;
